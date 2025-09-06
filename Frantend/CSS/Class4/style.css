@@ -1,0 +1,13 @@
+button:hover{
+  background-color: black;
+  color: aqua;
+}
+button:active{
+    background-color: brown;
+}
+h1::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: blueviolet;
+}
