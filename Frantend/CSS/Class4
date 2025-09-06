@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafic light</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <div id="container">
+    <div class="box" id="first"></div>
+    <div class="box"  id="second"></div>
+    <div class="box" id="third"></div>
+   </div>
+</body>
+</html>
+button:hover{
+  background-color: black;
+  color: aqua;
+}
+button:active{
+    background-color: brown;
+}
+h1::first-letter{
+    color: blue;
+}
+p::first-line{
+    color: blueviolet;
+}
+#container{
+    border: 2px solid black;
+    height: 300px;
+    width: 120px;
+}
+.box{
+ border: 7px solid black;
+ width: 70px;
+ height: 70px;
+ margin: 10px;
+ border-radius: 50%;
+ margin-left: 15px;
+}
+#first{
+    background-color: red;
+}
+#second{
+    background-color: green;
+}
+#third{
+    background-color: yellow;
+}
