@@ -1,0 +1,13 @@
+.main{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    box-shadow: 2px 4px 9px black;
+    
+}
+img{
+    width: 100%;
+}
+.main:hover{
+     box-shadow: 2px 4px 15px black;
+}
