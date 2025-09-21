@@ -1,1 +1,22 @@
+//Q.1 Table  print for loop
 
+for(let i=0;i<=10;i++){
+    console.log(i*2);
+}
+
+
+//Q.2 Square
+let k=1;
+while(i<=10){
+  console.log(`Square is =${i*i}`);
+ i++;
+}
+
+
+//Q.3 Do while loop
+
+let j=1;
+do{
+    console.log("Hello world");
+    i++;
+}while (i<10);
