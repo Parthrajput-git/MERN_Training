@@ -91,10 +91,10 @@ console.log(arr);
 console.log(arr.reverse().indexOf('March'));
 console.log(arr);
 
-Q 1
+//Q 1
 let arr5=[7,9,0,-2];
 let n=3;
-console.log(arr.slice(0,length));
+console.log(arr5.slice(0,length));
 
 // Q 2
 let arr6=[7,9,0,-2];
@@ -112,7 +112,7 @@ if(str.length==0){
 console.log("String is not emty",str);
 }
 
-Q 4
+//Q 4
 let char="ABCdEfg";
 let n2=4;
 if(char[n2]==char[n2].toLowerCase()){
