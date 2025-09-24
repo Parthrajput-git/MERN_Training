@@ -34,3 +34,21 @@ arr2.forEach((el)=>{
     console.log(el.work);
     
 });
+
+
+// map method
+let arr4=[23,45,76,34,35];
+
+let fun=arr4.map((el)=>{
+   return el-1;
+});
+console.log(fun);
+
+// Second step
+let more=arr4.map((l)=>{
+    return l;
+})
+console.log(more);
+console.log(arr4);
+
+
