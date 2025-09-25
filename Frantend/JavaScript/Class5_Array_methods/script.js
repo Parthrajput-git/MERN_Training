@@ -60,6 +60,35 @@ let result=arr9.reduce((prev,curr)=>{
 });
 console.log(result);
 
+// Some Practice  
+
+// filter method
+// let even=[1,2,3,4,5,6,7,8,9,10];
+
+// let ans=even.filter((el)=>{
+//     return el%2==0;
+// })
+// console.log(ans);
+// console.log(even);
+// console.log(even.indexOf(3));
+
+//Every & Sum
+
+// let arr6=[1,2,3,4,5];
+
+// console.log(arr6.every());
+
+// reduce method
+const arr9=[1,2,3,4,5];
+
+let result=arr9.reduce((prev,curr)=>{
+   return prev+curr;
+});
+console.log(result);
+
+
+
+
 
 
 
