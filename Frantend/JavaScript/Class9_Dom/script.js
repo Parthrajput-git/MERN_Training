@@ -20,3 +20,13 @@ console.log(p);
 // node.style
 let divn=document.querySelector("div");
 let pri=divn.style.backgroundColor="red";
+
+// Insart Elements
+let btn=document.createElement("button");
+btn.innerText="clik me";
+console.log(btn);
+
+
+let diiv=document.querySelector("div");
+diiv.append(btn);
+
