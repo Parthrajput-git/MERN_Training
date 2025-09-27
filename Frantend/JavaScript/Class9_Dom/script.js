@@ -16,3 +16,7 @@ let para=document.querySelector("p");
 let p=para.setAttribute("Para","written")
 
 console.log(p);
+
+// node.style
+let divn=document.querySelector("div");
+let pri=divn.style.backgroundColor="red";
