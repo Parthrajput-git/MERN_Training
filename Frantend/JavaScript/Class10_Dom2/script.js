@@ -1,26 +1,26 @@
-// // Selectors
-// let dir=document.getElementById(".box");
+// Selectors
+let dir=document.getElementById(".box");
 
-// console.log(dir);
+console.log(dir);
 
-// let man=document.querySelector(".box2");
+let man=document.querySelector(".box2");
 
-// console.log(man);
+console.log(man);
 
-// // getAttribute selector
-// let div=document.querySelector("div");
-// let id=div.getAttribute("id");
-// console.log(id);
+// getAttribute selector
+let div=document.querySelector("div");
+let id=div.getAttribute("id");
+console.log(id);
 
-// let para=document.querySelector("p");
-// let p=para.setAttribute("Para","written")
+let para=document.querySelector("p");
+let p=para.setAttribute("Para","written")
 
-// console.log(p);
+console.log(p);
 
 
-// // node.style
-// let divn=document.querySelector("div");
-// let pri=divn.style.backgroundColor="red";
+// node.style
+let divn=document.querySelector("div");
+let pri=divn.style.backgroundColor="red";
 
 // Insart Elements
 // first append();
@@ -63,4 +63,13 @@ document.querySelector("body").prepend(btn5);
 
 let del=document.querySelector("p");
 del.remove();
+
+// use many selectors
+let button=document.createElement("button");
+button.innerText="click me!";
+
+button.style.color="white";
+button.style.backgroundColor="red";
+
+document.querySelector("body").append(button);
 
