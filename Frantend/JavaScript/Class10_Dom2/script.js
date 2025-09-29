@@ -156,8 +156,12 @@ document.querySelector("body").append(button);
 
 
 //add Class List
+// let parag=document.querySelector("p");
+// parag.classList.add("newClass");
+
 let parag=document.querySelector("p");
 parag.classList.add("newClass");
+
 
 
 
