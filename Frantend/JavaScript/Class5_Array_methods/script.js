@@ -120,6 +120,12 @@ const data = {
 
 const dCopy={...data,id: 21};
 console.log(dCopy);
+// Third oparation
+let hel="Hello"
+
+const d=[...hel];
+console.log(d);
+
 
 
 
