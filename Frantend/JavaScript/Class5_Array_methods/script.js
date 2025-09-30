@@ -88,7 +88,13 @@ console.log(result);
       }
  });
  console.log(res);
- 
+  // default parameters
+
+ function getvalue(a,b=19){
+   return a+b;
+ }
+ getvalue(6);
+
 
 
 
