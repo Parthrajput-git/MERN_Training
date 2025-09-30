@@ -111,6 +111,17 @@ let allCopy=[...str,...prev];
 console.log(allCopy);
 
 
+// second oparation
+const data = {
+   Fname: "Prinsh Yadav",
+   age: 20,
+   Work: "study"
+}
+
+const dCopy={...data,id: 21};
+console.log(dCopy);
+
+
 
 
 
