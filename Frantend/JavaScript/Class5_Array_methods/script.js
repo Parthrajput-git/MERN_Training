@@ -96,6 +96,21 @@ console.log(result);
  getvalue(6);
 
 
+// Spread 
+let pre=[1,2,3,4,5];
+let copy=[...pre];
+
+console.log(copy.push(4));
+console.log(copy);
+console.log(pre);
+
+let  str="Hello";
+let prev =[1,2,3,4,5];
+let allCopy=[...str,...prev];
+
+console.log(allCopy);
+
+
 
 
 
