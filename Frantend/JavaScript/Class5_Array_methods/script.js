@@ -127,6 +127,14 @@ const d=[...hel];
 console.log(d);
 
 
+// Destructuring  
+let des = ["Prita", "Avi", "Aarogy", "samay", "Mahavinashak"];
+
+let [...all] = des;
+console.log(all);
+
+
+
 
 
 
