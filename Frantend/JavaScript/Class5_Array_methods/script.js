@@ -87,8 +87,9 @@ console.log(result);
          return pre;
       }
  });
- console.log("The max number :",res);
+ console.log(res);
  
+
 
 
 
