@@ -78,13 +78,6 @@ console.log(result);
 
 // console.log(arr6.every());
 
-// reduce method
-const arr9=[1,2,3,4,5];
-
-let result=arr9.reduce((prev,curr)=>{
-   return prev+curr;
-});
-console.log(result);
 
 
 
