@@ -77,6 +77,19 @@ console.log(result);
 // let arr6=[1,2,3,4,5];
 
 // console.log(arr6.every());
+// Resuce use to solve max number  
+ let max=[1,2,5,3,91,7,8];
+
+ let res=max.reduce((pre,curr)=>{
+      if(pre<curr){
+         return curr;
+      }else{
+         return pre;
+      }
+ });
+ console.log("The max number :",res);
+ 
+
 
 
 
