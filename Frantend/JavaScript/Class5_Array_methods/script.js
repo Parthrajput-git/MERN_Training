@@ -133,6 +133,14 @@ let des = ["Prita", "Avi", "Aarogy", "samay", "Mahavinashak"];
 let [...all] = des;
 console.log(all);
 
+//second use  
+let des = ["Prita", "Avi", "Aarogy", "samay", "Mahavinashak"];
+
+let [firend,siblings,...all] = des;
+console.log(firend);
+
+console.log(all);
+
 
 
 
