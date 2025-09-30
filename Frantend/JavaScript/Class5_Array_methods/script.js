@@ -142,6 +142,21 @@ console.log(firend);
 console.log(all);
 
 
+//Third used
+const dataObj={
+   fname:"rita",
+   study:"B.Tech",
+   year:3,
+   college:"abcd"
+}
+
+let {city="Indore"}=dataObj;//default value
+// console.log(copyobj);
+console.log(city);
+
+
+
+
 
 
 
