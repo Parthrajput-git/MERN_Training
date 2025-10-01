@@ -50,6 +50,31 @@ p.innerHTML="Hello world <b>This is me<b>";
 body.append(p);
 
 
+// Dom Events
+let btn = document.querySelector("button");
+
+btn.onclick=function(){
+   alert("Button was Clicked");
+   console.log("Button wass Clicked");
+
+}
+
+// second onclick
+function get(){
+    console.log("Button was Clicked");
+
+}
+btn.onclick=get;
+
+// third onmouseenter
+function value() {
+    console.log("Hello i am  button");
+
+}
+btn.onmouseenter=value;
+
+
+
 
 
 
