@@ -13,6 +13,8 @@ h3.style.color="blue";
 
 body.append(h3);
 
+// Practice in Dom
+
 let div=document.createElement("div");
 
 div.style.border="2px solid black";
@@ -29,6 +31,7 @@ h1.innerText="I'm in a div";
 div.append(h1);
 
 pa.insertAdjacentElement('beforebegin',h1);
+
 
 
 
