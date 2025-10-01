@@ -33,5 +33,23 @@ div.append(h1);
 pa.insertAdjacentElement('beforebegin',h1);
 
 
+//Q.2 Create the some opration
+let body=document.querySelector("body");
+let btn=document.createElement("button");
+let input=document.createElement("input");
+let p=document.createElement("p");
+btn.innerText="Click me";
+body.append(input);
+body.append(btn)
+
+input.setAttribute("pleaceholder","Username");
+btn.setAttribute("id","btn");
+
+p.innerHTML="Hello world <b>This is me<b>";
+
+body.append(p);
+
+
+
 
 
