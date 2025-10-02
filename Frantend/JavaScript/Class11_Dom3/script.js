@@ -1,4 +1,4 @@
-// Dom 
+// Dom Oprations
 let para=document.createElement("p");
 para.innerText="Hey i am red";
 para.style.color="red";
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
