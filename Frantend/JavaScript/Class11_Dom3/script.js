@@ -3,7 +3,7 @@ let para=document.createElement("p");
 para.innerText="Hey i am red";
 para.style.color="red";
 
-let body=document.querySelector("body")
+let body=document.querySelector("body");
 
 body.append(para);
 
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
