@@ -82,7 +82,8 @@ btn.addEventListener("click",()=>{
     btn.style.backgroundColor="green";
 })
 
-body.append(btn)
+body.append(btn);
+
 
 
 
