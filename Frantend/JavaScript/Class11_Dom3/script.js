@@ -73,7 +73,7 @@ function value() {
 }
 btn.onmouseenter=value;
 
-//Practice Dom
+//Practice Dom color 
 let body=document.querySelector("body");
 let btn=document.createElement("button");
 btn.innerText="Click me";
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
