@@ -73,6 +73,17 @@ function value() {
 }
 btn.onmouseenter=value;
 
+let body=document.querySelector("body");
+let btn=document.createElement("button");
+btn.innerText="Click me";
+
+btn.addEventListener("click",()=>{
+    btn.style.backgroundColor="green";
+})
+
+body.append(btn);
+
+
 
 
 
