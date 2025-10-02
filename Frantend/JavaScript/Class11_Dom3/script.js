@@ -79,10 +79,11 @@ let btn=document.createElement("button");
 btn.innerText="Click me";
 
 btn.addEventListener("click",()=>{
-    btn.style.backgroundColor="green";
+    btn.style.backgroundColor="green"
 })
 
 body.append(btn);
+
 
 
 
