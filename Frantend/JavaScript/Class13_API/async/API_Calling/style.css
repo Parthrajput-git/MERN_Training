@@ -1,0 +1,21 @@
+#mainbox {
+    display: flex;
+    gap: 15px;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+img {
+    width: 210px;
+    height: 200px;
+   
+}
+.boxdiv{
+    padding: 5px;
+    border-radius: 3%;
+    border: 2px solid black;
+}
+body{
+    background-color: silver;
+} 
