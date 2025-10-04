@@ -1,4 +1,4 @@
-
+// APL calling help with DOM
 const div = document.querySelector("#mainbox");
 console.log(div);
 
@@ -22,5 +22,6 @@ async function apiCall() {
     console.log(result);
 }
 apiCall();
+
 
 
