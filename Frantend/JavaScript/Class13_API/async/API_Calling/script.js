@@ -1,6 +1,6 @@
 // APL calling help with DOM
 const div = document.querySelector("#mainbox")
-console.log(div);
+console.log(div)
 
 
 const url = "https://fakestoreapi.com/products/";
@@ -22,6 +22,7 @@ async function apiCall() {
     console.log(result);
 }
 apiCall();
+
 
 
 
