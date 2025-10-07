@@ -7,4 +7,4 @@ let promise = new Promise((resolve,reject)=>{
     else{
         console.log("rejected");
     }
-  })
+  });
