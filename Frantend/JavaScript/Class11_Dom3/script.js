@@ -13,7 +13,7 @@ h3.style.color="blue";
 
 body.append(h3);
 
-// Practice in Dom
+// Practice in Dom.
 
 let div=document.createElement("div");
 
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
