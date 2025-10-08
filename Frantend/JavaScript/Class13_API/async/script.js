@@ -1,3 +1,4 @@
+// Create a async function.
 function wait() {
     return new Promise((res, rej) => {
         setTimeout(() => {
@@ -14,4 +15,5 @@ async function op() {
     await wait();
     wait();
 }
+
 op();
