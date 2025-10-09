@@ -11,12 +11,13 @@ function wait() {
 }
 
 async function op() {
-    await wait()
+    await wait();
     await wait();
     wait();
 }
 
 op();
+
 
 
 
