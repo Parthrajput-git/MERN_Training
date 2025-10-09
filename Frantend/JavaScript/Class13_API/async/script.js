@@ -6,7 +6,7 @@ function wait() {
             console.log(num);
             res();
 
-        }, 1000);
+        }, 1000)
     });
 }
 
@@ -17,3 +17,4 @@ async function op() {
 }
 
 op();
+
