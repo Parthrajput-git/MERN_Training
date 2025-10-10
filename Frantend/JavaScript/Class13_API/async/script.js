@@ -4,7 +4,7 @@ function wait() {
         setTimeout(() => {
             let num = Math.floor(Math.random() * 10) + 1;
             console.log(num);
-            res();
+            res()
 
         }, 1000);
     });
@@ -17,6 +17,7 @@ async function op() {
 }
 
 op();
+
 
 
 
