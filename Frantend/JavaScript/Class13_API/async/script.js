@@ -1,4 +1,4 @@
-// Create a async function.
+// Create a async function..
 function wait() {
     return new Promise((res, rej) => {
         setTimeout(() => {
@@ -17,6 +17,7 @@ async function op() {
 }
 
 op();
+
 
 
 
