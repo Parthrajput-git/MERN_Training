@@ -10,13 +10,14 @@ function wait() {
     });
 }
 
-async function op() {
+async function read() {
     await wait();
     await wait();
     wait();
 }
 
 op();
+
 
 
 
