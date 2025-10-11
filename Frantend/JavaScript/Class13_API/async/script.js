@@ -16,7 +16,8 @@ async function read() {
     wait();
 }
 
-op();
+read();
+
 
 
 
