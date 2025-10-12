@@ -70,21 +70,21 @@ for(let i=1;i<=4;i++){
     console.log(emty);
 }
 
-// //      *
-// //     **
-// //    ***
-// //   ****
-// for(let i=1;i<=4;i++){
-//     let emty="";
-//     for(let j=1;j<=4-i;j++){
-//         emty+=" ";
-//     }
-//     for(let j=1;j<=i;j++){
-//         emty+="*";
-//     }
-//     console.log(emty);
+//      *
+//     **
+//    ***
+//   ****
+for(let i=1;i<=4;i++){
+    let emty="";
+    for(let j=1;j<=4-i;j++){
+        emty+=" ";
+    }
+    for(let j=1;j<=i;j++){
+        emty+="*";
+    }
+    console.log(emty);
     
-// }
+}
 
 
 // // 12345
