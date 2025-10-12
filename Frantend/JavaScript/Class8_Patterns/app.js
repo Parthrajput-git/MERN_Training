@@ -25,17 +25,17 @@ for(let i=0;i<5;i++){
 }
 
 
-// // *****
-// // ***
-// // **
-// // *
-// for(let i=0;i<=5;i++){
-//     let ans="";
-//     for(let j=0;j<5-i;j++){
-//         ans+="*"
-//     }
-//     console.log(ans);
-// }
+// *****
+// ***
+// **
+// *
+for(let i=0;i<=5;i++){
+    let ans="";
+    for(let j=0;j<5-i;j++){
+        ans+="*"
+    }
+    console.log(ans);
+}
 
 // // 12345
 // // 1234
