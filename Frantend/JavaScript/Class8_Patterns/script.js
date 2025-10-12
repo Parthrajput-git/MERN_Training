@@ -13,18 +13,18 @@ for(let i=1;i<=5;i++){
     console.log(emt);
 }
 
-// // ****
-// // ***
-// // **
-// // *
-// for(let i=1;i<=4;i++){
-//     let emty="";
-//     for(let j=1;j<=4-i+1;j++){
-//           emty+=j;
-//     }
-//     console.log(emty);
+// ****
+// ***
+// **
+// *
+for(let i=1;i<=4;i++){
+    let emty="";
+    for(let j=1;j<=4-i+1;j++){
+          emty+=j;
+    }
+    console.log(emty);
     
-// }
+}
 
 // // 1
 // // 12
