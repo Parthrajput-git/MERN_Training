@@ -122,13 +122,13 @@ console.log(emty);
 // 1 0 1 0 1
 
 
-// for(let i=5;i>=1;i--){
-//     emty="";
-//     for(let j=5;j>=1;j--){
-//         emty+=j;
-//     }
-// console.log(emty);
-// }
+for(let i=5;i>=1;i--){
+    emty="";
+    for(let j=5;j>=1;j--){
+        emty+=j;
+    }
+console.log(emty);
+}
 
 
 // A
