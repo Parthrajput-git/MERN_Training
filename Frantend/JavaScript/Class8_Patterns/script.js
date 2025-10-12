@@ -38,19 +38,19 @@ for(let i=1;i<=4;i++){
     console.log(emty); 
 }
 
-// // A
-// // B C
-// // D E F
-// // GHIJ 
-// let ch=65;
-// for(let i=1;i<=4;i++){
-//     let emty="";
-//     for(let j=1;j<=i;j++){ 
-//         emty+=String.fromCharCode(ch);
-//         ch++;
-//     }
-//     console.log(emty);
-//  }
+// A
+// B C
+// D E F
+// GHIJ 
+let ch=65;
+for(let i=1;i<=4;i++){
+    let emty="";
+    for(let j=1;j<=i;j++){ 
+        emty+=String.fromCharCode(ch);
+        ch++;
+    }
+    console.log(emty);
+ }
 
 // // ******
 // // *    *
