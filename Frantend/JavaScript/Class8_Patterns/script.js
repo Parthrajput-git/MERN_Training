@@ -1,17 +1,17 @@
 // // Pattern prints level-(01)
 
-// // *
-// // **
-// // ***
-// // ****
-// // *****
-// for(let i=1;i<=5;i++){
-//     let emt="";
-//     for(let j=1;j<=i;j++){
-//         emt+="*"
-//     }
-//     console.log(emt);
-// }
+// *
+// **
+// ***
+// ****
+// *****
+for(let i=1;i<=5;i++){
+    let emt="";
+    for(let j=1;j<=i;j++){
+        emt+="*"
+    }
+    console.log(emt);
+}
 
 // // ****
 // // ***
