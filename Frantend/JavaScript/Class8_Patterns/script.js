@@ -131,18 +131,18 @@ console.log(emty);
 // }
 
 
-// // A
-// // B B
-// // C C C
-// // D D D D
-// // let ch=65;
-// for(let i=1;i<=4;i++){
-//     let emty="";
-//     for(let j=1;j<=i;j++){ 
-//         emty+=" "+String.fromCharCode(64+i);
-//     }
-//     console.log(emty);
-//  }
+// A
+// B B
+// C C C
+// D D D D
+// let ch=65;
+for(let i=1;i<=4;i++){
+    let emty="";
+    for(let j=1;j<=i;j++){ 
+        emty+=" "+String.fromCharCode(64+i);
+    }
+    console.log(emty);
+ }
 
 
 // 1
