@@ -1,4 +1,4 @@
-// There are help to create asyn function.
+// There are help to create asyn function...
 function wait() {
     return new Promise((res, rej) => {
         setTimeout(() => {
@@ -17,6 +17,7 @@ async function read() {
 }
 
 read();
+
 
 
 
