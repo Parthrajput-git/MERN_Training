@@ -8,7 +8,7 @@ function wait() {
         }, 1000);
     });
 }
-
+// This is a async function
 async function read() {
     await wait();
     await wait();
@@ -16,6 +16,7 @@ async function read() {
 }
 
 read();
+
 
 
 
