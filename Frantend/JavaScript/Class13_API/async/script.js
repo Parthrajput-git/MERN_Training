@@ -5,7 +5,7 @@ function wait() {
             let num = Math.floor(Math.random() * 10) + 1;
             console.log(num);
             res();
-        }, 1000)
+        }, 1000);
     });
 }
 // This is a async function.
@@ -16,6 +16,7 @@ async function read() {
 }
 
 read();
+
 
 
 
