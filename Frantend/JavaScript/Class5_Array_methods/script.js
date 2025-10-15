@@ -52,7 +52,7 @@ console.log(more);
 console.log(arr4);
 
 
-// reduce method
+// reduce method are take a two values
 const arr9=[1,2,3,4,5];
 
 let result=arr9.reduce((prev,curr)=>{
@@ -153,6 +153,7 @@ const dataObj={
 let {city="Indore"}=dataObj;//default value
 // console.log(copyobj);
 console.log(city);
+
 
 
 
