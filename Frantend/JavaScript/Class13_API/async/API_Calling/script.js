@@ -18,9 +18,10 @@
 
     // });
 
-//     // console.log(result);
-// }
-// apiCall();
+    // console.log(result);
+}
+apiCall();
+
 
 
 
