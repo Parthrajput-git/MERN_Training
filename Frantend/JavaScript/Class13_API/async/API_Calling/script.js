@@ -16,11 +16,12 @@
     //     <p> ${item.price}</p>
     //    </div>`
 
-    });
+    // });
 
-    console.log(result);
+    // console.log(result);
 }
 apiCall();
+
 
 
 
