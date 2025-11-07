@@ -11,16 +11,17 @@
 
     // result.map((item) => {
     //     div.innerHTML += `<div class="boxdiv">
-    //     <p class="im"><img src="${item.image}"</p>
-    //     <p class="im">${item.category}</p>
-    //     <p> ${item.price}</p>
-    //    </div>`
+        <p class="im"><img src="${item.image}"</p>
+        <p class="im">${item.category}</p>
+        <p> ${item.price}</p>
+       </div>`
 
-    // });
+    });
 
-    // console.log(result);
+    console.log(result);
 }
 apiCall();
+
 
 
 
