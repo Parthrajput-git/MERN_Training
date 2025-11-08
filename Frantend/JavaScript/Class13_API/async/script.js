@@ -1,5 +1,5 @@
 // There are help to create asyn function.
-function wait() {
+// function wait() {
     return new Promise((res, rej) => {
         setTimeout(() => {
             let num = Math.floor(Math.random() * 10) + 1;
@@ -16,6 +16,7 @@ async function read() {
 }
 
 read();
+
 
 
 
