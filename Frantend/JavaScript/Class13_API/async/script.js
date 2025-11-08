@@ -9,13 +9,14 @@
     });
 }
 // This is a async function.
-// async function read() {
+async function read() {
     await wait();
     await wait();
     wait();
 }
 
 read();
+
 
 
 
