@@ -3,7 +3,7 @@
     // return new Promise((res, rej) => {
         setTimeout(() => {
             // let num = Math.floor(Math.random() * 10) + 1;
-            // console.log(num);
+            console.log(num);
             res();
         }, 1000);
     });
@@ -16,6 +16,7 @@ async function read() {
 }
 
 read();
+
 
 
 
