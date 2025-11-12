@@ -5,6 +5,6 @@
         // console.log("able to voting");    
     }
     else{
-        console.log("rejected");
+        // console.log("rejected");
     }
   });
