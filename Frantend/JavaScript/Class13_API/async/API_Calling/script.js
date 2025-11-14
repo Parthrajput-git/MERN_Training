@@ -5,7 +5,7 @@ console.log(div);
 
 const url = "https://fakestoreapi.com/products/";
 
-// async function apiCall() {
+async function apiCall() {
     const data = await fetch(url);
     // const result = await data.json();
 
@@ -21,6 +21,7 @@ const url = "https://fakestoreapi.com/products/";
     console.log(result);
 }
 apiCall();
+
 
 
 
