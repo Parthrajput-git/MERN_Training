@@ -3,7 +3,7 @@ const div = document.querySelector("#mainbox");
 console.log(div);
 
 
-// const url = "https://fakestoreapi.com/products/";
+const url = "https://fakestoreapi.com/products/";
 
 // async function apiCall() {
     // const data = await fetch(url);
@@ -21,6 +21,7 @@ console.log(div);
     console.log(result);
 }
 apiCall();
+
 
 
 
