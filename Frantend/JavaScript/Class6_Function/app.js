@@ -7,6 +7,6 @@
 // console.log("Original  object is",obj);
 obj.lname="Mahi";
 
-Object.freeze(obj);
+// Object.freeze(obj);
 obj.id="23";
 console.log("After the  object is",obj);
