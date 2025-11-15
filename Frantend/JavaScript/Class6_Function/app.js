@@ -1,6 +1,6 @@
 // Freeze method
 
-// const obj = {
+const obj = {
     // fname : "Rohan",
       age : 80
 }
