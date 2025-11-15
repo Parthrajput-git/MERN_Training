@@ -1,7 +1,7 @@
 // Freeze method
 
 const obj = {
-    // fname : "Rohan",
+    fname : "Rohan",
       age : 80
 }
 console.log("Original  object is",obj);
