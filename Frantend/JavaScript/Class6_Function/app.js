@@ -4,7 +4,7 @@ const obj = {
     // fname : "Rohan",
       age : 80
 }
-// console.log("Original  object is",obj);
+console.log("Original  object is",obj);
 obj.lname="Mahi";
 
 // Object.freeze(obj);
