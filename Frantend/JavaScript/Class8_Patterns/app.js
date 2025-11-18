@@ -4,7 +4,7 @@
 // ****
 // ****           
 // for(let i=0; i<=3;i++){
-    let ans = "";
+    // let ans = "";
     for(let j=0;j<=3;j++){
         ans += "*"
     }
