@@ -8,7 +8,7 @@
     // for(let j=0;j<=3;j++){
         ans += "*"
     }
-     console.log(ans);
+     // console.log(ans);
 }
 
 
