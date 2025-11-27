@@ -9,7 +9,7 @@ async function apiCall() {
     const data = await fetch(url);
     const result = await data.json();
 
-    // result.map((item) => {
+    result.map((item) => {
         // div.innerHTML += `<div class="boxdiv">
         // <p class="im"><img src="${item.image}"</p>
         // <p class="im">${item.category}</p>
@@ -21,6 +21,7 @@ async function apiCall() {
     console.log(result);
 }
 apiCall();
+
 
 
 
