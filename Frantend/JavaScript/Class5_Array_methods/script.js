@@ -1,7 +1,7 @@
 // array method 
 
 // First step
-// let  arr=[1,2,3,4,5];
+let  arr=[1,2,3,4,5];
 
 let result=function(arr){
     console.log(`Hii, i am ${arr}`);
@@ -153,6 +153,7 @@ const dataObj={
 let {city="Indore"}=dataObj;//default value
 // console.log(copyobj);
 console.log(city);
+
 
 
 
