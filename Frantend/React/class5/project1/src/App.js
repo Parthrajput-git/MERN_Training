@@ -2,7 +2,7 @@ import BestForm from "./components/BestForm";
 import Form from "./components/Form";
 
 
-// function App() {
+function App(){
   return (
     <div>
       {/* <Form /> */}
