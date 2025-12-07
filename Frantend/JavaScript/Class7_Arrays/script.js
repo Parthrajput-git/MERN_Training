@@ -1,4 +1,4 @@
-// array splice method
+// array splice method.
 
 // let arr=[1,2,3,4,5];
 // let res=arr.splice(3);
