@@ -17,7 +17,7 @@ let ar=[ "Student1", "Student2"];
 arr.push("Prachi");
 console.log(arr);
 
-// Unshift()  add to start
+// Unshift()  add to start.
 
 arr.unshift("Vidhi");
 console.log(arr);
