@@ -1,5 +1,5 @@
 //Practic
-let dir=document.getElementById(".box");
+// let dir=document.getElementById(".box");
 
 console.log(dir);
 
