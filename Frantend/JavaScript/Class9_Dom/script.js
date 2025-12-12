@@ -1,7 +1,7 @@
 //Practic
 // let dir=document.getElementById(".box");
 
-// console.log(dir);
+console.log(dir);
 
 let man=document.querySelector(".box2");
 
