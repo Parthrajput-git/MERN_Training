@@ -36,7 +36,7 @@ arr2.forEach((el)=>{
 });
 
 
-// map method
+// map method.
 let arr4=[23,45,76,34,35];
 
 let fun=arr4.map((el)=>{
@@ -153,6 +153,7 @@ const dataObj={
 let {city="Indore"}=dataObj;//default value
 // console.log(copyobj);
 console.log(city);
+
 
 
 
