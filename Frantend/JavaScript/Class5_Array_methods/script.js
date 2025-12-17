@@ -15,7 +15,7 @@ arr1.forEach((arr1)=>{
    console.log(`Hii, i am ${arr1}`);
 });
 
-// Third step array of object
+// Third step array of object.
 let arr2=[{
     fname : "Meera",
     work: "Bhakti"
@@ -153,6 +153,7 @@ const dataObj={
 let {city="Indore"}=dataObj;//default value
 // console.log(copyobj);
 console.log(city);
+
 
 
 
