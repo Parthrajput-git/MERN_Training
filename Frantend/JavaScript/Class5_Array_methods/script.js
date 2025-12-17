@@ -9,7 +9,7 @@ let result=function(arr){
 }
 arr.forEach(result);
 
-// Second step
+// Second step.
 let  arr1=[1,2,3,4,5];
 arr1.forEach((arr1)=>{
    console.log(`Hii, i am ${arr1}`);
@@ -153,6 +153,7 @@ const dataObj={
 let {city="Indore"}=dataObj;//default value
 // console.log(copyobj);
 console.log(city);
+
 
 
 
