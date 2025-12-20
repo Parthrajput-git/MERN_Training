@@ -50,7 +50,7 @@ p.innerHTML="Hello world <b>This is me<b>";
 body.append(p);
 
 
-// Dom Events
+// Dom Events.
 let btn = document.querySelector("button");
 
 btn.onclick=function(){
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
