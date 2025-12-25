@@ -33,7 +33,7 @@ div.append(h1);
 pa.insertAdjacentElement('beforebegin',h1);
 
 
-//Q.2 Create the some opration.
+//Q.2 Create the some opration..
 let body=document.querySelector("body");
 let btn=document.createElement("button");
 let input=document.createElement("input");
@@ -83,6 +83,7 @@ btn.addEventListener("click",()=>{
 })
 
 body.append(btn);
+
 
 
 
