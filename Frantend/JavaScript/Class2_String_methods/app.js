@@ -3,7 +3,7 @@
 let stri="  HelloWorld  ";
 //(01.1)
 console.log(stri.slice(0,5));
-//(01.2)
+//(01.2).
 console.log(stri.slice(5,stri.length));
 //(01.3)
 console.log(stri.slice(-3));//10-3=7
@@ -37,6 +37,7 @@ obj.lname="Mahi";
 Object.freeze(obj);
 obj.id="23";
 console.log("After the  object is",obj);
+
 
 
 
