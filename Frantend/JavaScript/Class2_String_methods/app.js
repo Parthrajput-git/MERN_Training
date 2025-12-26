@@ -1,5 +1,5 @@
 //String methods.
-//(01) slice
+//(01) slice.
 let stri="  HelloWorld  ";
 //(01.1)
 console.log(stri.slice(0,5));
@@ -37,6 +37,7 @@ obj.lname="Mahi";
 Object.freeze(obj);
 obj.id="23";
 console.log("After the  object is",obj);
+
 
 
 
