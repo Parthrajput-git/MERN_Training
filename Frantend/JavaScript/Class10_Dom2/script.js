@@ -1,4 +1,4 @@
-// Selectors
+// Selectors.
 let dir=document.getElementById(".box");
 
 console.log(dir);
@@ -161,6 +161,7 @@ document.querySelector("body").append(button);
 
 let parag=document.querySelector("p");
 parag.classList.add("newClass");
+
 
 
 
