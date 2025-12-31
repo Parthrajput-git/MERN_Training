@@ -7,7 +7,7 @@ let man=document.querySelector(".box2");
 
 console.log(man);
 
-// getAttribute selector
+// getAttribute selector.
 let div=document.querySelector("div");
 let id=div.getAttribute("id");
 console.log(id);
@@ -161,6 +161,7 @@ document.querySelector("body").append(button);
 
 let parag=document.querySelector("p");
 parag.classList.add("newClass");
+
 
 
 
