@@ -1,6 +1,6 @@
 
 .face{
-    background-color: yellow;
+    /* background-color: yellow; */
     border-radius: 50%;
     width: 400px;
     height: 400px;
@@ -30,3 +30,4 @@
 .righte{
     left: 250px;
 }
+
