@@ -1,4 +1,4 @@
-// This is Promises  object..
+// This is Promises  object.
 
 let promise = new Promise((resolve,reject)=>{
     let age = Math.floor((Math.random(0,10)*100));
