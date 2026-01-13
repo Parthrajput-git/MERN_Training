@@ -1,4 +1,4 @@
-// Freeze method and
+// Freeze method help
 
 const obj = {
     fname : "Rohan",
