@@ -18,7 +18,7 @@ let p=para.setAttribute("Para","written")
 console.log(p);
 
 
-// node.style.
+// node.style.,
 let divn=document.querySelector("div");
 let pri=divn.style.backgroundColor="red";
 
@@ -161,6 +161,7 @@ document.querySelector("body").append(button);
 
 let parag=document.querySelector("p");
 parag.classList.add("newClass");
+
 
 
 
