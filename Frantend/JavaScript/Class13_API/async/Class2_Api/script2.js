@@ -1,4 +1,4 @@
-// Show the random Dog images
+// Show the random Dog images.
 let btn = document.querySelector("button");
 let url2 = "https://dog.ceo/api/breeds/image/random";
 btn.addEventListener("click", async () => {
@@ -19,4 +19,5 @@ async function getDog() {
     }
 
 }
+
 
