@@ -1,4 +1,4 @@
-// Show random fact for cats
+// Show random fact for cats.
 let btn=document.querySelector("button");
 btn.addEventListener("click", async ()=>{
     let fact=await getData();
@@ -22,3 +22,4 @@ async function  getData() {
 
 
 }
+
