@@ -10,3 +10,12 @@ app.use((req,res)=>{
     console.log("request received ");
     res.send("Hii this is my fist sever !");
 })
+
+app.get("/", (req, res) => {
+    res.send("You contacted root path!");
+
+});
+app.get("/second", (req, res) => {
+    res.send("You contacted second path!");
+
+});
