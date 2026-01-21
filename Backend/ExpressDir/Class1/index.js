@@ -19,3 +19,14 @@ app.get("/second", (req, res) => {
     res.send("You contacted second path!");
 
 });
+
+
+app.get("/third", (req, res) => {
+    res.send("You contacted third path!");
+
+});
+//This is all path root not exist
+// app.get("*", (req,res) => {
+//     res.send("This path does not exist ");
+
+// });
