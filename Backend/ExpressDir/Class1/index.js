@@ -30,3 +30,7 @@ app.get("/third", (req, res) => {
 //     res.send("This path does not exist ");
 
 // });
+
+app.post("/",(req,res)=>{
+    res.send("You send a post request to root");
+})
