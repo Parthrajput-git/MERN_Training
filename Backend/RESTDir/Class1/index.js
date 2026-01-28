@@ -52,16 +52,17 @@ app.get("/posts/:id", (req, res) => {
     res.render("show.ejs",{ post })
 });
 
-app.patch("/posts/:id",(req,res)=>{
-    let { id } = req.params;
-    let newContent = req.body.content;
-    let post = posts.find((p) => id === p.id);
-    post.content = newContent;
-    console.log(post);
-    res.send(" Patch request are working ");
+// app.patch("/posts/:id",(req,res)=>{
+//     let { id } = req.params;
+//     let newContent = req.body.content;
+//     let post = posts.find((p) => id === p.id);
+//     post.content = newContent;
+//     console.log(post);
+//     res.send(" Patch request are working ");
     
-});
+// });
 
 app.listen(port, () => {
     console.log("Port are listening ");
 });
+
