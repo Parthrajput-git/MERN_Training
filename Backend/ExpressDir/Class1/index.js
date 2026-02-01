@@ -1,3 +1,5 @@
+//Create a server
+
 const express = require("express");
 const app = express();
 
@@ -33,4 +35,5 @@ app.get("/third", (req, res) => {
 app.post("/",(req,res)=>{
     res.send("You send a post request to root");
 })
+
 
