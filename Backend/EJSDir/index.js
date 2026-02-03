@@ -1,4 +1,4 @@
-// The all serer
+// The all server.
 const express = require("express");
 const app = express();
 const path = require("path");
@@ -34,4 +34,5 @@ app.listen(port, () => {
 
 
 })
+
 
