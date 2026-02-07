@@ -8,7 +8,7 @@ let port = 3000;
 app.use(express.static(path.join(__dirname,"public")));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-
+// The respone in UI
 app.get("/", (req, res) => {
     res.render("home.ejs");
 });
@@ -34,6 +34,7 @@ app.listen(port, () => {
 
 
 })
+
 
 
 
