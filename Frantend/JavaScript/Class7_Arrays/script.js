@@ -22,7 +22,8 @@ console.log(arr);
 arr.unshift("Vidhi");
 console.log(arr);
 
-// // pop() delete end and return it
+// pop() delete end and return it.
+
 arr.pop();
 console.log(arr);
 
