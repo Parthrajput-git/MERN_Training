@@ -1,7 +1,7 @@
 // Create a backend server
 const express = require("express");
 const app = express();
-let port = 3000;
+let port = 3000;// This is port number
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -21,4 +21,5 @@ app.listen(port, () => {
     console.log("Port are listening :");
 
 });
+
 
