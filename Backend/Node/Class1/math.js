@@ -1,3 +1,4 @@
+// There are all Maths oparations
 let sum = (a, b) => a + b;
 let subtraction = (a, b) => a - b;
 let  devide= (a, b) => a * b;
@@ -18,4 +19,5 @@ module.exports= {
     devide: devide,
     PI: PI,
     G:G
+
 }
