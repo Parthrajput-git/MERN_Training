@@ -12,7 +12,7 @@ const G = 9.8;
 //     PI: PI,
 //     G:G
 // }
-
+// Direct applye exports.
 module.exports= {
     sum: sum,
     subtraction:subtraction,
@@ -21,3 +21,4 @@ module.exports= {
     G:G
 
 }
+
