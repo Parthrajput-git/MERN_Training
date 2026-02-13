@@ -35,7 +35,7 @@ let posts = [
         content: "I got selected for my 1st internship! ",
     },
 ];
-
+// New 
 app.get("/posts/new", (req, res) => {
     res.render("new.ejs");
 });
@@ -85,6 +85,7 @@ app.delete("/posts/:id",(req,res)=>{
 app.listen(port, () => {
     console.log("listening are port : 3000 ");
 });
+
 
 
 
