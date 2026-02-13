@@ -17,6 +17,7 @@ app.set("views", path.join(__dirname, "views"));
 
 app.use(express.static(path.join(__dirname, "public")));
 
+// All data 
 let posts = [
     {
         id: uuidv4(),
@@ -84,5 +85,6 @@ app.delete("/posts/:id",(req,res)=>{
 app.listen(port, () => {
     console.log("listening are port : 3000 ");
 });
+
 
 
