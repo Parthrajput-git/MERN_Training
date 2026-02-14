@@ -18,10 +18,11 @@ app.post("/register", (req, res) => {
     res.send(`Standard POST response, Welcome @${user}`);
 });
 
-app.listen(port, () => {
+app.listen(port, () => {// listen method to server
     console.log("Port are listening :");
 
 });
+
 
 
 
