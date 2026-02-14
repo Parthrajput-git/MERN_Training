@@ -12,6 +12,7 @@ app.get("/register", (req, res) => {
     res.send(`Standard GET response ${user}`);
 });
 
+//Post route
 app.post("/register", (req, res) => {
     let { user, password } = req.body;
     res.send(`Standard POST response, Welcome @${user}`);
@@ -21,6 +22,7 @@ app.listen(port, () => {
     console.log("Port are listening :");
 
 });
+
 
 
 
