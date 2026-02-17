@@ -25,7 +25,13 @@ app.get("/random", (req, res) => {
     res.send("This is a random page");
 });
 
+// Page not found!
+app.use((req, res) => {
+    res.send("Page not found");
+})
+
 app.listen(8080, () => {
     console.log("Server are listing post 8080");
+
 
 });
