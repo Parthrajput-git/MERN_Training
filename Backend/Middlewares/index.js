@@ -20,7 +20,7 @@ app.use((req, res, next) => {
 
 app.get("/api",checkToken,(req,res)=>{
      res.send("Important Data");
-})
+});
 
 app.get("/", (req, res) => {
     res.send("I am root");
@@ -40,4 +40,5 @@ app.listen(8080, () => {
 
 
 });
+
 
