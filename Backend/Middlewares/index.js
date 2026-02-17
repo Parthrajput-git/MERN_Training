@@ -15,6 +15,11 @@ app.use((req, res, next) => {
     let time = new Date();
     console.log(req.method, req.path, req.hostname, req, time);
     next();
+});
+
+
+app.get("/api",checkToken,(req,res)=>{
+     res.send("Important Data");
 })
 
 app.get("/", (req, res) => {
@@ -35,3 +40,4 @@ app.listen(8080, () => {
 
 
 });
+
