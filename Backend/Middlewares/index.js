@@ -18,6 +18,15 @@ app.use((req, res, next) => {
 });
 
 
+//Token
+// app.use("/api", (req, res, next) => {
+//     let {token}=req.query;
+//     if(token==="access"){
+//        next();
+//     }
+//     res.send("ACCESS DENIED!");
+// });
+
 app.get("/api",checkToken,(req,res)=>{
      res.send("Important Data");
 });
@@ -40,5 +49,6 @@ app.listen(8080, () => {
 
 
 });
+
 
 
