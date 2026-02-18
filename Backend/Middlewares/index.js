@@ -18,6 +18,16 @@ app.use((req, res, next) => {
 });
 
 
+const checkToken=("/api", (req, res, next) => {
+    let {token}=req.query;
+    if(token==="access"){
+        res.send("Important Data");
+    }
+    res.send("ACCESS DENIED!");
+});
+
+
+
 //Token
 // app.use("/api", (req, res, next) => {
 //     let {token}=req.query;
@@ -49,6 +59,7 @@ app.listen(8080, () => {
 
 
 });
+
 
 
 
