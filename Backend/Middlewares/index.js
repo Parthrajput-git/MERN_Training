@@ -11,6 +11,12 @@ const app = express();
 //   next()
 // });
 
+// app.use((req, res, next) => {
+//     let time = new Date();
+//     console.log(req.method, req.path, req.hostname, req, time);
+//     next();
+//});
+
 app.use((req, res, next) => {
     let time = new Date();
     console.log(req.method, req.path, req.hostname, req, time);
@@ -59,6 +65,7 @@ app.listen(8080, () => {
 
 
 });
+
 
 
 
