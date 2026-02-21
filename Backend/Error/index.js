@@ -18,7 +18,7 @@ const checkToken = ("/api", (req, res, next) => {
     throw new ExpressError(401,"ACCESS DENIED!")
 });
 
-
+// Codition right and access Data
 app.get("/api", checkToken, (req, res) => {
     res.send("Important Data");
 })
@@ -63,4 +63,5 @@ app.listen(8080, () => {
 
 
 });
+
 
