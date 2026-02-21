@@ -8,6 +8,7 @@ app.use("/random", (req, res, next) => {
     next();
 })
 
+// Conditional Code
 const checkToken = ("/api", (req, res, next) => {
     let { token } = req.query;
     if (token === "access") {
@@ -62,3 +63,4 @@ app.listen(8080, () => {
 
 
 });
+
