@@ -26,7 +26,7 @@ app.get("/api", checkToken, (req, res) => {
 app.get("/", (req, res) => {
     res.send("I am root");
 });
-
+//Random Page
 app.get("/random", (req, res) => {
     res.send("This is a random page");
 });
@@ -63,5 +63,6 @@ app.listen(8080, () => {
 
 
 });
+
 
 
