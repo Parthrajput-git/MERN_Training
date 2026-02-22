@@ -37,6 +37,7 @@ app.get("/random", (req, res) => {
 //     next();
 // });
 
+//Error 
 app.get("/err",(req,res)=>{
     abcd=abcd;
 });
@@ -63,6 +64,7 @@ app.listen(8080, () => {
 
 
 });
+
 
 
 
