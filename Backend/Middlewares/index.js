@@ -20,7 +20,7 @@ const app = express();
 
 app.use((req, res, next) => {
     let time = new Date();
-    console.log(req.method, req.path, req.hostname, req, time);
+    console.log(req.method, req.path, req.hostname, req, time);// This concept is reqest propertice
     next();
 });
 
@@ -67,6 +67,7 @@ app.listen(8080, () => {
 
 
 });
+
 
 
 
