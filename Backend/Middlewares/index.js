@@ -61,11 +61,13 @@ app.use((req, res) => {
     res.send("Page not found");
 })
 
+//Server are Linting
 app.listen(8080, () => {
     console.log("Server are listing post 8080");
 
 
 });
+
 
 
 
