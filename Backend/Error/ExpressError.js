@@ -1,4 +1,4 @@
-//Inheritence
+//Inheritence concept
 class ExpressError extends Error {
     constructor(status, message) {
         super();   
@@ -9,3 +9,4 @@ class ExpressError extends Error {
 
 
 module.exports = ExpressError;
+
