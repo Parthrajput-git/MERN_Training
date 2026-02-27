@@ -11,15 +11,18 @@ app.get("/register", (req, res) => {
     let { user, password } = req.query;
     res.send(`Standard GET response ${user}`);
 });
+
 app.post("/register", (req, res) => {
     let { user, password } = req.body;
     res.send(`Standard POST response, Welcome @${user}`);
 });
 
-app.listen(port, () => {// listen method to server
+
+app.listen(port, () => {
     console.log("Port are listening :");
 
 });
+
 
 
 
