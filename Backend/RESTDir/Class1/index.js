@@ -15,9 +15,7 @@ app.use(methodOverride('_method'));
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-app.use(express.static(path.join(__dirname, "public")));
-
-// All data 
+app.use(express.static(path.join(__dirname, "public"))); 
 let posts = [
     {
         id: uuidv4(),
@@ -85,6 +83,7 @@ app.delete("/posts/:id",(req,res)=>{
 app.listen(port, () => {
     console.log("listening are port : 3000 ");
 });
+
 
 
 
