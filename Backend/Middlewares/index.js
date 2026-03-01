@@ -24,7 +24,6 @@ app.use((req, res, next) => {
     next();
 });
 
-//Condition
 const checkToken=("/api", (req, res, next) => {
     let {token}=req.query;
     if(token==="access"){
@@ -66,6 +65,7 @@ app.listen(8080, () => {
 
 
 });
+
 
 
 
