@@ -1,7 +1,7 @@
 
 const express = require("express");
 const app = express();
-let port = 3000;// This is port number
+let port = 3000;
 
 app.use(express.urlencoded({ extended: true }));// parse data. 
 app.use(express.json());
@@ -22,6 +22,7 @@ app.listen(port, () => {
     console.log("Port are listening :");
 
 });
+
 
 
 
