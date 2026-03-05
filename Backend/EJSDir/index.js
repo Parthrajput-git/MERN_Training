@@ -11,7 +11,7 @@ app.get("/", (req, res) => {
     res.render("home.ejs");
 });
 
-
+// Data
 app.get("/ig/:username", (req, res) => {
     let followers=["Pop","Rem","Som","Mona","Joy"];
     let { username } = req.params;
@@ -32,6 +32,7 @@ app.listen(port, () => {
 
 
 })
+
 
 
 
