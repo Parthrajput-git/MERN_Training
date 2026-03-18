@@ -1,4 +1,5 @@
 //Error Hnadling
+//Create a server
 const express = require("express");
 const app = express();
 const ExpressError=require("./ExpressError")
