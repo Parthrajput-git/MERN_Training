@@ -44,6 +44,7 @@ app.get("/err",(req,res)=>{
     abcd=abcd;
 });
 
+//Admin page
 app.get("/admin",(req,res)=>{
   throw new ExpressError(403,"Access to admin is Forbidden");
 });
