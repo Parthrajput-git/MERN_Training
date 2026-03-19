@@ -13,6 +13,7 @@ app.use((req,res)=>{
     res.send("Hii this is my fist sever !");
 })
 
+//The first root
 app.get("/", (req, res) => {
     res.send("You contacted root path!");
 
