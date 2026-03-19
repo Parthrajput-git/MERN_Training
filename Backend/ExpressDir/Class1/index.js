@@ -18,6 +18,8 @@ app.get("/", (req, res) => {
     res.send("You contacted root path!");
 
 });
+
+//The second root
 app.get("/second", (req, res) => {
     res.send("You contacted second path!");
 
