@@ -1,6 +1,6 @@
 // let n=process.argv;
 // for(let i=0;i<=n.length;i++){
-//   console.log("Hello",n[i]);
+//   console.log("Hello world" ,n[i]);
   
 // }
 // let print=require("./math");
