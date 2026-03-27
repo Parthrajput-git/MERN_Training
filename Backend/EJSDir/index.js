@@ -11,8 +11,6 @@ app.set("views", path.join(__dirname, "views"));
 app.get("/", (req, res) => {
     res.render("home.ejs");
 });
-
-// Data
 app.get("/ig/:username", (req, res) => {
     let followers=["Pop","Rem","Som","Mona","Joy"];
     let { username } = req.params;
