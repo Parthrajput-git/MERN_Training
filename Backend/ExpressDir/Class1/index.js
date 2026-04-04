@@ -12,8 +12,6 @@ app.use((req,res)=>{
     console.log("request received ");
     res.send("Hii this is my fist sever !");
 })
-
-//The first root
 app.get("/", (req, res) => {
     res.send("You contacted root path!");
 
