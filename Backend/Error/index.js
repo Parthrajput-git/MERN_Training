@@ -3,7 +3,6 @@ const express = require("express");
 const app = express();
 const ExpressError=require("./ExpressError")
 
-//This is random page
 app.use("/random", (req, res, next) => {
     console.log("I am only fot random");
     next();
