@@ -44,7 +44,7 @@ const checkToken=("/api", (req, res, next) => {
 // });
 
 app.get("/api",checkToken,(req,res)=>{
-     res.send("Important Data");// Hidden Data
+     res.send("Important Data");
 });
 
 app.get("/", (req, res) => {
