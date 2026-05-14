@@ -1,4 +1,3 @@
-//Create a server side.
 
 const express = require("express");
 const app = express();
