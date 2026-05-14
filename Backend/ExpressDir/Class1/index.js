@@ -27,7 +27,7 @@ app.get("/third", (req, res) => {
 });
 //This is all path root not exist
 // app.get("*", (req,res) => {
-//     res.send("This path does not exist ");
+//     res.send("This path does not exist in server");
 
 // });
 app.post("/",(req,res)=>{
